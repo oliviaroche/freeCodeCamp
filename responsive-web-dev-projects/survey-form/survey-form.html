@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="survey-form.css">
+    </head>
+    <body>
+                <h1>Gaming Survey Form</h1>
+            
+                <div id="container">
+                    <div class="forms">
+                        <form id="survey-form">
+                            <div class="name">
+                                <div class="labels">
+                                    <label id="name-label" for="name">Name:</label>
+                                </div>
+                                <input type="text" class="inputs" id="name" name="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="email">
+                                <div class="labels">
+                                    <label id="email-label" for="email">Email:</label>
+                                </div>
+                                <input type="email" id="email" class="inputs" name="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="age">
+                                <div class="labels">
+                                    <label for="shows">What is your age group?</label>
+                                </div>
+                                <div class="inputs">
+                                    <select class="dropdown" id="dropdown" name="age">
+                                        <option value="Select">Select</option>
+                                        <option value="Under 18">Under 18</option>
+                                        <option value="18-24">18-24 years old</option>
+                                        <option value="25-34">25-34 years old</option>
+                                        <option value="35-44">35-44 years old</option>
+                                        <option value="45-54">45-54 years old</option>
+                                        <option value="55+">55+ years old</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="platform">
+                                <div class="labels">
+                                    <label for="platform">What platform do you play games on?</label>
+                                </div>
+                                <div class="inputs">
+                                    <select class="dropdown" id="dropdown" name="age">
+                                        <option value="Select">Select</option>
+                                        <option value="PC">PC</option>
+                                        <option value="Playstation">PS3</option>
+                                        <option value="Playstation">PS4</option>
+                                        <option value="Xbox">Xbox 360</option>
+                                        <option value="Xbox">Xbox One</option>
+                                        <option value="Nintendo">Nintendo Wii U</option>
+                                        <option value="Nintendo">Nintendo Switch</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class='checkboxes'>
+                                <div class='labels'>
+                                    <label for='genres'>What genre(s) is your favourite?</label>
+                                </div>
+                                <div class=inputs>
+                                    <label for='Action'><input name='genres' type='checkbox' id='Action' value='1'>Action</label><br>
+                                    <label for='Adventure'><input id='Adventure' value='2' type='checkbox' name='genres'>Adventure</label><br>
+                                    <label for='Casual'><input id='Casual' value='3' name='genres' type='checkbox'>Casual</label><br>
+                                    <label for='Indie'><input id='Indie' name='genres' type='checkbox' value='4'>Indie</label><br>
+                                    <label for='MMO'><input id='MMO' value='5' name='genres' type='checkbox'>MMO</label><br>
+                                    <label for='Racing'><input id='Racing' value='6' name='genres' type='checkbox'>Racing</label><br>
+                                    <label for='RPG'><input id='RPG' value='7' name='genres' type='checkbox'>RPG</label><br>
+                                    <label for='Simulation'><input id='Simulation' value='8' name='genres' type='checkbox'>Simulation</label><br>
+                                    <label for='Strategy'><input id='Strategy' value='9' name='genres' type='checkbox'>Strategy</label><br>
+                                </div>
+                            </div>
+                            
+                            <div class="radiobuttons">
+                                <div class="labels">
+                                    <label for="streaming">Do you stream?</label>
+                                </div>
+                                <div class="inputs">
+                                    <label for="Yes"><input id="Yes" type="radio" name="streaming" value="1">Yes</label><br>
+                                    <label for="No"><input id="No" type="radio" name="networks" value="2">No</label>
+                                </div>
+                            </div>
+                            <div class="radiobuttons">
+                                <div class="labels">
+                                    <label for="networks">If yes, what streaming service do you use?</label>
+                                </div>
+                                <div class='inputs'>
+                                    <select class="dropdown" id="dropdown">
+                                        <option value="Select">Select</option>
+                                        <option value="Twitch">Twitch</option>
+                                        <option value="HitBox">HitBox</option>
+                                        <option value="Beam">Beam</option>
+                                        <option value="Azubu">Azubu</option>
+                                        <option value="Bigo">Bigo Live</option>
+                                        <option value="YouTube">YouTube Gaming</option>
+                                        <option value="Afreeca">Afreeca</option>
+                                        <option value="Disco">Disco Melee</option>
+                                        <option value="Gosu">Gosu Gamers</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class='labels'>
+                                <label for='comments'>Have we missed anything? Tells us about it.</label>
+                            </div>
+                            <div class='inputs'>
+                                <textarea class='textareabox' id='comments' name='comments' placeholder='Leave a comment...'></textarea>
+                            </div><br>
+                            <button id='submit' type='submit'>Submit</button>
+                        </form>
+                    </div>
+                </div>
+    </body>
+</html>
