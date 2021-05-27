@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    height: auto;
+    background-color: white;
+  }
+  
+  #img-div {
+    height: 57.5vw;
+  }
+  
+  #img-div img {
+    display: block;
+    margin-bottom: auto;
+    width: 100%;
+    border-bottom: 4em gray solid;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  #img-caption {
+    position: sticky;
+    width: 40%;
+    margin-top: -35vw;
+    left: 10vw;
+    font-size: 2vw;
+    color: gray;
+  }
+  
+  #title {
+    width: 40%;
+    position: sticky;
+    font-size: 5vw;
+    left: 20vw;
+    color: white;
+  }
+  
+  .about-container {
+    background: #111;
+    display: block;
+    margin: auto;
+    border-top: 5px gray solid;
+  }
+  
+  #about-title {
+    padding-top: 2vh;
+    text-align: center;
+    font-size: 5vw;
+    margin-bottom: 3vh;
+    color: white;
+    text-shadow: 4px 4px 4px #000;
+  }
+  
+  #about {
+    display: grid;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: 40% 40%;
+    grid-gap: 10%;
+    justify-content: center;
+    padding-bottom: 2vh;
+    background-color: #111;
+    color: white;
+  }
+  
+  #tribute-info {
+    display: block;
+    /*color: white;*/
+    text-align: justify;
+    font-size: 1.25em;
+    text-indent: 4em;
+  }
+  
+  #tribute-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    display: block;
+    text-align: center;
+    padding-bottom: 2vh;
+  }
+  
+  #tribute-link:hover {
+    color: blue;
+  }
+  
+  #gray-to-white {
+    display: block;
+    background: linear-gradient(180deg, #111, white);
+    height: 10px;
+    width: 100%;
+  }
+  
+  #white-to-gray {
+    display: block;
+    background: linear-gradient(180deg, white, #111);
+    height: 10px;
+    width: 100%;
+  }
+  
+  #quotes-container {
+    padding-bottom: 2vw;
+  }
+  
+  #quotes {
+    padding-top: 1vh;
+    background: white;
+    text-align: center;
+    font-size: 5vw;
+  }
+  
+  #posters {
+    padding-top: 2vh;
+    border-top: 0.2em gradient solid;
+    background: white;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-row-gap: 10vh;
+    grid-column-gap: 5vw;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .poster-wrapper {
+    margin: auto;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+  }
+  
+  .poster {
+    width: 100%;
+    display: block;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    filter: grayscale(100%);
+  }
+  
+  .poster:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+    filter: grayscale(0%);
+  }
+  
+  #video-container {
+    background-image: url("https://i.postimg.cc/2SsBNM3L/Jeet-Kune-Do-2.jpg");
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+  
+  #video-container h2 {
+    text-align: center;
+    font-size: 5vw;
+    color: white;
+    /*text-shadow: 2px 2px 4px #333;
+    font-size: 6vw; */
+  }
+  
+  .vid {
+    width: 80%;
+    margin: 0 auto;
+    height: 45vw;
+  }
+  
+  #video-tribute {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 5vw;
+  }
+  
+  .vid iframe {
+    width: 100%;
+    height: 100%;
+  }
+  
+  footer {
+    background-color: #111;
+    /*height: 4vh;*/
+    padding: 5vh;
+    margin-top: 20px black solid;
+    font-size: 1.5vw;
+    color: lightgray;
+    text-align: center;
+  }
